@@ -1,0 +1,7 @@
+*.bak
+*.orig
+*.tmp
+*.bat
+*.zip
+*.exe
+.DS_Store

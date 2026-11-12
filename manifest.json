@@ -1,0 +1,23 @@
+{
+  "id": "gen2_gsc_pt-br_mod",
+  "name": "[PT-BR] Versão Brasileira (GSC)",
+  "version": "0.1.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "games": [
+    "gold",
+    "silver",
+    "crystal"
+  ],
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "category": "LANGUAGE",
+  "language": true,
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "permissions": [],
+  "github": "LordSangreal/gen2_gsc_pt-br_mod",
+  "description": "Tradução de Gold, Silver e Crystal para PT-BR. Portada da tradução de GBC feita pela Tradu-Roms no começo dos anos 2000."
+}

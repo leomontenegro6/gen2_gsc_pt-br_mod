@@ -1,0 +1,1 @@
+- Portar scripts a partir dos arquivos "pt_BR_msg" na raíz desse workspace.

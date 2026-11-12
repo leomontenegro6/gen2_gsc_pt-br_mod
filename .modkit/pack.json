@@ -1,0 +1,185 @@
+{
+  "modkit": "1.0.0",
+  "packed_at": "2026-11-12T01:04:38Z",
+  "id": "translation-en-gen2",
+  "version": "0.10.1",
+  "api": 2,
+  "engine_range": ">=0.0.0-dev <1.0.0",
+  "files": [
+    {
+      "path": "fonts/LICENSES/ark-pixel/OFL.txt",
+      "bytes": 4412,
+      "sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee"
+    },
+    {
+      "path": "fonts/LICENSES/boutique-bitmap-9x9/OFL.txt",
+      "bytes": 6566,
+      "sha256": "265f3814079511b3f3fce9003cb60a1402fa792849c5cae79e5998939eb02617"
+    },
+    {
+      "path": "fonts/LICENSES/galmuri/LICENSE.txt",
+      "bytes": 4360,
+      "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4418,
+      "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
+    },
+    {
+      "path": "fonts/fusion-pixel-10px-proportional-latin.ttf",
+      "bytes": 3952092,
+      "sha256": "8a5d1c36185e93752e3f3e51044e111d0635c8a5d669d3119271707694e3c910"
+    },
+    {
+      "path": "lang/crystal_item_names.lua",
+      "bytes": 196,
+      "sha256": "6cbed14230970d03a88f23a36964aa886921100d4df281cfa16f6bbb97034d47"
+    },
+    {
+      "path": "lang/crystal_landmarks.lua",
+      "bytes": 114,
+      "sha256": "279361f13457e547cff162eddc2946dbb2a6cd6a8b01e0d8aa89feac559cd11c"
+    },
+    {
+      "path": "lang/crystal_strings.lua",
+      "bytes": 4293,
+      "sha256": "a644bdff71de3b099a3aff23e4d5c1b2cec38e717d24e3cb1ff4674929ff22b2"
+    },
+    {
+      "path": "lang/crystal_trainer_class_names.lua",
+      "bytes": 113,
+      "sha256": "951510f4c6a1400f15d090a869c69e5a059a11c9caf79b5e6995ccec39e30bbc"
+    },
+    {
+      "path": "lang/decorations.lua",
+      "bytes": 1598,
+      "sha256": "bc9ff83b76171e2cff161de672a4b1109ab347b61460009f20daa9294795e994"
+    },
+    {
+      "path": "lang/dialogue.lua",
+      "bytes": 295479,
+      "sha256": "d85b3f36dd988b43e14206b1ccb9cd82976ad4a9952176a1e68bca70a693f209"
+    },
+    {
+      "path": "lang/dialogue_crystal.lua",
+      "bytes": 406876,
+      "sha256": "9872416c796a87696dddb0d8fec7b1ffb0d6f83347431bc0fb7057a80e009455"
+    },
+    {
+      "path": "lang/item_names.lua",
+      "bytes": 8106,
+      "sha256": "85f14e365ba1bbaf9b77524cac7aba87403791d5b0a1cc5af31fee1278f34e46"
+    },
+    {
+      "path": "lang/landmarks.lua",
+      "bytes": 4134,
+      "sha256": "e88e8c45a30e06a252df161f104d925ba560035de28e61c32c253e567e97304f"
+    },
+    {
+      "path": "lang/move_names.lua",
+      "bytes": 7905,
+      "sha256": "d3cb3e62493daff48c1db0daf75f00430cdcd9f8974296ed6b8027bc0659ea7f"
+    },
+    {
+      "path": "lang/oak_speech.lua",
+      "bytes": 943,
+      "sha256": "91733027db8fa4402b814ec266c7dd48733df2d96512cdf6ef70653d70f92377"
+    },
+    {
+      "path": "lang/phone_contacts.lua",
+      "bytes": 186,
+      "sha256": "476edfa24152d934d0d2b1350c6789cb0665c214ae56cf9bc6d5cbae7d48890e"
+    },
+    {
+      "path": "lang/radio_channels.lua",
+      "bytes": 473,
+      "sha256": "52a85dad8beb7e8c1fe7c0f41e46858d179a29a04aba06adc3cfc15a4cdea080"
+    },
+    {
+      "path": "lang/species_dex_text.lua",
+      "bytes": 20558,
+      "sha256": "547b22234e06a661cb054d2e2afaa064e13551413d940149c87aabf27e6b1387"
+    },
+    {
+      "path": "lang/species_dex_text2.lua",
+      "bytes": 19777,
+      "sha256": "30821c37c6b7e65735c9c021fec068da759875ba1afcb5d24b041e8837d76f8a"
+    },
+    {
+      "path": "lang/species_dex_text2_crystal.lua",
+      "bytes": 19594,
+      "sha256": "cd387657419ccd7497d1c35c0f98d564be6d1682163e37beeca353525a15794c"
+    },
+    {
+      "path": "lang/species_dex_text2_silver.lua",
+      "bytes": 19758,
+      "sha256": "c874cf811f990e079e9618abf873678e839c6244140a1cc50437318bde01c71c"
+    },
+    {
+      "path": "lang/species_dex_text_crystal.lua",
+      "bytes": 20213,
+      "sha256": "3fb1ecb147ad9c424a8769359a8c0fd595231c48c1fe9cfbb161ce4f6ff7f4c0"
+    },
+    {
+      "path": "lang/species_dex_text_silver.lua",
+      "bytes": 20556,
+      "sha256": "9179bed35be58fcaa8370a0fe2e8ff46ead2f7af2d10d67618dc6bd5f2fb814c"
+    },
+    {
+      "path": "lang/species_kinds.lua",
+      "bytes": 7145,
+      "sha256": "0211b58746a4025b951b87c3862546e817da4ccc1f6ebd5e17e554968d54f70c"
+    },
+    {
+      "path": "lang/species_metrics.lua",
+      "bytes": 7832,
+      "sha256": "c5ac8e004ab4d7d63cdc5ccc82d0329b2fe96dbfc1656a8a5ad39ac348249bb2"
+    },
+    {
+      "path": "lang/species_names.lua",
+      "bytes": 7249,
+      "sha256": "60cf84605c42a05d4653b93883369f6687aa164f397077bb8b0f87d4b7118c79"
+    },
+    {
+      "path": "lang/strings.lua",
+      "bytes": 114771,
+      "sha256": "305ab581f97ec742e10c35c3e784d189b52fcc25d5fe9652eb790ab87b631ccf"
+    },
+    {
+      "path": "lang/trainer_class_names.lua",
+      "bytes": 1977,
+      "sha256": "ce5425f274d3dfcae1541136e67694f13123ff55426012ead23b14e6313cd2c9"
+    },
+    {
+      "path": "lang/trainer_names.lua",
+      "bytes": 17456,
+      "sha256": "05d29b3becd16b1a31f608d2578552d6c4b4959ea93e503576e2b49490f436c8"
+    },
+    {
+      "path": "lang/trainer_names_crystal.lua",
+      "bytes": 19100,
+      "sha256": "3491ee4022724bd45d7fa741c9cb6faeca28497f2f27dbb49c379eda9cc3b1fe"
+    },
+    {
+      "path": "lang/ui_labels.lua",
+      "bytes": 1776,
+      "sha256": "976d45a10dac7d1136db442a053419f8e1b3ab561439449d5a57fba3ccc4b6b4"
+    },
+    {
+      "path": "main.lua",
+      "bytes": 11522,
+      "sha256": "2344a449b9a72052538751f64014dcdde0da2ce670eb26e70abd3fc2301c6232"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 16772,
+      "sha256": "8121e0b77b67db81eed67d5998d3086e69cd29681ec044eaf2a1a4f2958ddee6"
+    }
+  ],
+  "lint": {
+    "no_rom_content": "pass",
+    "schema": "pass",
+    "cross_refs": "pass"
+  }
+}
