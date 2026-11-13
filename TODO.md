@@ -1,1 +1,5 @@
-- Portar scripts a partir dos arquivos "pt_BR_msg" na raíz desse workspace.
+- Portar scripts a partir dos arquivos "pt-BR_msg" na raíz desse workspace.
+- Portar textos da pokédex do Silver direto da rom traduzida da Tradu-Roms
+- Traduzir textos da pokédex do Gold (aparentemente não tem na versão da Tradu-Roms)
+- Rever nomes de localidades se compensa deixar maiúsculo ou capitalizado
+- Ver questão dos itens de decoração do quarto, para desinverter "Doll", "Bed", etc.

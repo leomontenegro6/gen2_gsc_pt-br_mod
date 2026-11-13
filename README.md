@@ -1,6 +1,6 @@
 # [PT-BR] Versão Brasileira (Gold / Silver / Crystal)
 
-Tradução para português do Brasil dos **diálogos** de *Pokémon Gold*, *Pokémon Silver* e *Pokémon LeafGreen* no formato de **mod para o gen1recomp**.
+Tradução para português do Brasil dos **diálogos** de *Pokémon Gold*, *Pokémon Silver* e *Pokémon Crystal* no formato de **mod para o gen1recomp**.
 
 ## Créditos
 
