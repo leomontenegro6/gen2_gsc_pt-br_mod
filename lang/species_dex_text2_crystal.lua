@@ -56,7 +56,7 @@ return {
   ["ESPEON"] = "prevendo o próxi-<NEXT>mo movimento de<NEXT>seu oponente.",
   ["EXEGGCUTE"] = "que há entre os<NEXT>seis o reunirá<NEXT>instantaneamente.",
   ["EXEGGUTOR"] = "cabeças. Uma cabe-<NEXT>ça que cai vira um<NEXT>EXEGGCUTE.",
-  ["FARFETCH_D"] = "têm se esforçado<NEXT>para reproduzir<NEXT>esses #MONS.",
+  ["FARFETCH_D"] = "têm se esforçado<NEXT>para reproduzir<NEXT>esses #MON.",
   ["FEAROW"] = "bem grande, logo,<NEXT>merece tratamento<NEXT>cauteloso.",
   ["FERALIGATR"] = "mite-o se mover<NEXT>rápido, mesmo no<NEXT>chão.",
   ["FLAAFFY"] = "tricidade, pode<NEXT>guardá-la em<NEXT>seu pêlo.",
