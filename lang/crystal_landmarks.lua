@@ -1,3 +1,3 @@
 return {
-  ["LANDMARK_BATTLE_TOWER"] = "Torre de Batalha",
+  ["LANDMARK_BATTLE_TOWER"] = "TORRE DE\nBATALHA",
 }

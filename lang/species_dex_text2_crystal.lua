@@ -193,7 +193,7 @@ return {
   ["SEEL"] = "tra o frio. Adora<NEXT>oceanos cheios de<NEXT>icebergs.",
   ["SENTRET"] = "rigos ao emitir<NEXT>sons e bater sua<NEXT>cauda no chão.",
   ["SHELLDER"] = "veis, então só<NEXT>usa esse golpe co-<NEXT>mo último recurso.",
-  ["SHUCKLE"] = "para aninhar. É<NEXT>mesclado com GRÃOS<NEXT>para fazer bebida.",
+  ["SHUCKLE"] = "para aninhar. É<NEXT>mesclado com FRUTAS<NEXT>para fazer bebida.",
   ["SKARMORY"] = "zem que pessoas já<NEXT>usaram essas penas<NEXT>como espadas.",
   ["SKIPLOOM"] = "se esconde na som-<NEXT>bra de árvores pa-<NEXT>ra não se molhar.",
   ["SLOWBRO"] = "ótimo sabor que<NEXT>a sua cauda pos-<NEXT>sui.",
