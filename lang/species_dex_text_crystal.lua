@@ -45,7 +45,7 @@ return {
   ["DRAGONITE"] = "Dizem que em<NEXT>algum lugar no<NEXT>oceano há uma",
   ["DRATINI"] = "Troca muito de<NEXT>pele durante o<NEXT>crescimento. Nesse",
   ["DROWZEE"] = "Quando mexe seu<NEXT>nariz, pode dizer<NEXT>onde alguém está",
-  ["DUGTRIO"] = "Esses DIGLETTS<NEXT>triplos cavam 60<NEXT>milhas abaixo do",
+  ["DUGTRIO"] = "Esses DIGLETT<NEXT>triplos cavam 60<NEXT>milhas abaixo do",
   ["DUNSPARCE"] = "Esconde-se no<NEXT>fundo de cavenras<NEXT>onde a luz nunca",
   ["EEVEE"] = "Sua habilidade de<NEXT>evoluir em várias<NEXT>formas permite",
   ["EKANS"] = "Utiliza a sua<NEXT>língua para lo-<NEXT>calizar o aroma",
