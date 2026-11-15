@@ -20,7 +20,9 @@ return function(mod)
   each("radio_channels", function(id, value) mod.content.radio_channels:patch(id, { name = value }) end)
   each("species_names", function(id, value) mod.content.pokemon:patch(id, { name = value }) end)
   each("move_names", function(id, value) mod.content.moves:patch(id, { name = value }) end)
+  each("move_descriptions", function(id, value) mod.content.moves:patch(id, { description = value }) end)
   each("item_names", function(id, value) mod.content.items:patch(id, { name = value }) end)
+  each("item_descriptions", function(id, value) mod.content.items:patch(id, { description = value }) end)
   each("trainer_class_names", function(id, value) mod.content.trainers:patch(id, { name = value }) end)
   each("species_kinds", function(id, value) mod.content.pokemon:patch(id, { dexEntry = { kind = value } }) end)
   each("species_dex_text", function(id, value) mod.content.pokemon:patch(id, { dexEntry = { text = value } }) end)
@@ -118,6 +120,11 @@ return function(mod)
     end
     for id, value in pairs(crystalRegistryCatalog("crystal_item_names")) do
       if type(value) == "string" and value ~= "" then mod.content.items:patch(id, { name = value }) end
+    end
+    for id, value in pairs(crystalRegistryCatalog("crystal_item_descriptions")) do
+      if type(value) == "string" and value ~= "" then
+        mod.content.items:patch(id, { description = value })
+      end
     end
     for id, value in pairs(crystalRegistryCatalog("crystal_trainer_class_names")) do
       if type(value) == "string" and value ~= "" then mod.content.trainers:patch(id, { name = value }) end
