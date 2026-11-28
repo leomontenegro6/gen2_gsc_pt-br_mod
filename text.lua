@@ -27,12 +27,27 @@ return function(mod)
   each("species_dex_text", function(id, value) mod.content.pokemon:patch(id, { dexEntry = { text = value } }) end)
   each("species_dex_text2", function(id, value) mod.content.pokemon:patch(id, { dexEntry = { text2 = value } }) end)
   each("landmarks", function(id, value) mod.content.landmarks:patch(id, { name = value }) end)
+  local stringsCatalog = catalog("strings")
   each("strings", function(id, value) mod.content.strings:override(id, value) end)
+
+  -- Named cart-text entries are kept in their own lang catalog, because they
+  -- are not the same registry as the engine-authored strings above.
+  local romText = mod.content.rom_text
+  if romText then
+    for id, value in pairs(catalog("rom_text")) do
+      if type(value) == "string" then romText:override(id, value) end
+    end
+  end
   local uiLabels = catalog("ui_labels")
+  local strings = stringsCatalog
   local function localizeItems(_, items)
     for _, item in ipairs(items or {}) do
       if type(item) == "table" and type(item.label) == "string" then
-        local value = uiLabels[item.label]
+        -- Gen2's title menu now obtains CONTINUE/NEW GAME/OPTION from the
+        -- cart's MainMenu.Strings table through RomText(), rather than from
+        -- Strings().  Resolve the resulting English label against the same
+        -- catalog here so the mod still works with both engine paths.
+        local value = strings[item.label] or uiLabels[item.label]
         if value then item.label = value end
       end
       -- Two-line row descriptions (e.g. the START menu's highlighted-entry
@@ -133,6 +148,12 @@ return function(mod)
     end
     for id, value in pairs(crystalRegistryCatalog("crystal_strings")) do
       if type(value) == "string" and value ~= "" then mod.content.strings:override(id, value) end
+    end
+    local crystalRomText = mod.content.rom_text
+    if crystalRomText then
+      for id, value in pairs(crystalRegistryCatalog("crystal_rom_text")) do
+        if type(value) == "string" and value ~= "" then crystalRomText:override(id, value) end
+      end
     end
   end
 
